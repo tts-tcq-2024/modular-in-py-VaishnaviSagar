@@ -1,3 +1,4 @@
+from Color_Coding import MAJOR_COLORS, MINOR_COLORS
 def generate_reference_manual():
     manual = []
     for pair_number in range(1, len(MAJOR_COLORS) * len(MINOR_COLORS) + 1):
