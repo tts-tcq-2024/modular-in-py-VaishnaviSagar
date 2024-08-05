@@ -11,7 +11,7 @@ def test_pair_to_number(major_color, minor_color, expected_pair_number):
   assert(pair_number == expected_pair_number)
 
 
-if __name__ == '__main__':
+if __name__ == '__Color_Coding__':
   test_number_to_pair(4, 'White', 'Brown')
   test_number_to_pair(5, 'White', 'Slate')
   test_pair_to_number('Black', 'Orange', 12)
